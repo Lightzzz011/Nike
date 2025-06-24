@@ -61,7 +61,6 @@
 - **Better Mobile Experience** - Enhanced mobile navigation and responsiveness
 - **Improved Product Showcase** - More interactive product cards with quick view functionality
 - **Enhanced Personalization** - More intuitive Nike By You section
-- **Streamlined Navigation** - Simplified menu structure for easier browsing
 
 ## 🔮 Future Enhancements
 
