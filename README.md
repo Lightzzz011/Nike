@@ -1,7 +1,8 @@
 # Nike Clone - Better Than Original
 
 <p align="center">
-  <img src="./assets/images/favicon.ico" alt="Nike Clone Logo" width="100" height="100">
+  <img src="./assets/images/favicon.png" alt="Nike Clone Logo" width="100" height="100">
+
 </p>
 
 <p align="center">
