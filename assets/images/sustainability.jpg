@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#004d40; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1b5e20; stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Leaf pattern -->
+    <pattern id="leaf-pattern" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <path d="M20,50 C20,20 50,20 50,50 C50,80 20,80 20,50 Z" fill="#4caf50" opacity="0.3"/>
+    </pattern>
+  </defs>
+  
+  <rect width="1200" height="600" fill="url(#bg-gradient)"/>
+  <rect width="1200" height="600" fill="url(#leaf-pattern)"/>
+  
+  <!-- Earth outline -->
+  <circle cx="300" cy="300" r="150" fill="none" stroke="#fff" stroke-width="2" opacity="0.8"/>
+  
+  <!-- Continents simplified -->
+  <path d="M250,200 C270,180 300,190 320,200 C340,210 350,230 340,250 C330,270 300,280 280,270 C260,260 240,230 250,200 Z" fill="#fff" opacity="0.6"/>
+  <path d="M200,300 C220,290 250,300 260,320 C270,340 260,370 240,380 C220,390 190,380 180,360 C170,340 180,310 200,300 Z" fill="#fff" opacity="0.6"/>
+  <path d="M350,320 C370,310 390,320 400,340 C410,360 400,390 380,400 C360,410 340,400 330,380 C320,360 330,330 350,320 Z" fill="#fff" opacity="0.6"/>
+  
+  <!-- Recycling arrows -->
+  <g transform="translate(700, 300)">
+    <path d="M0,-100 L50,-50 L0,0 L-50,-50 Z" fill="#fff" opacity="0.8"/>
+    <path d="M86.6,50 L86.6,150 L0,100 Z" fill="#fff" opacity="0.8" transform="rotate(120 0 0)"/>
+    <path d="M-86.6,50 L-86.6,150 L0,100 Z" fill="#fff" opacity="0.8" transform="rotate(240 0 0)"/>
+    
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#fff" stroke-width="2"/>
+  </g>
+  
+  <!-- Sustainable shoe elements -->
+  <g transform="translate(950, 300) scale(0.8)">
+    <!-- Shoe outline -->
+    <path d="M-150,0 C-100,-50 0,-50 100,0 C150,30 200,30 200,0 C200,-30 150,-30 100,-60 C0,-100 -100,-80 -150,-30 C-180,0 -180,30 -150,0 Z" fill="none" stroke="#fff" stroke-width="3" opacity="0.8"/>
+    
+    <!-- Recycled materials indication -->
+    <path d="M-100,-30 C-50,-50 0,-50 50,-30" stroke="#4caf50" stroke-width="5" stroke-dasharray="10,5" opacity="0.8"/>
+    <path d="M50,-30 C100,-50 150,-30 150,0" stroke="#4caf50" stroke-width="5" stroke-dasharray="10,5" opacity="0.8"/>
+    <path d="M-150,0 C-120,-10 -80,-10 -50,0" stroke="#4caf50" stroke-width="5" stroke-dasharray="10,5" opacity="0.8"/>
+    
+    <!-- Leaf symbol for eco-friendly -->
+    <path d="M0,-20 C0,-40 20,-40 20,-20 C20,0 0,0 0,-20 Z" fill="#4caf50" opacity="0.8" transform="translate(-80, 0) rotate(45)"/>
+  </g>
+  
+  <!-- Move to Zero text and logo -->
+  <g transform="translate(600, 500)">
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#fff" stroke-width="2"/>
+    <path d="M-20,-20 L20,20 M-20,20 L20,-20" stroke="#fff" stroke-width="2"/>
+  </g>
+</svg>

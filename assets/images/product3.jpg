@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <rect width="600" height="600" fill="#f5f5f5"/>
+  <g transform="translate(100, 100) scale(0.8)">
+    <!-- High-top shoe outline -->
+    <path d="M150,150 L150,250 C150,250 200,300 300,300 C400,300 450,250 450,250 L450,150 C450,150 400,100 300,100 C200,100 150,150 150,150 Z" fill="#fff" stroke="#111" stroke-width="8"/>
+    
+    <!-- Shoe details -->
+    <path d="M150,200 L450,200" stroke="#111" stroke-width="3" stroke-dasharray="5,5"/>
+    <path d="M170,150 L170,250" stroke="#111" stroke-width="3"/>
+    <path d="M430,150 L430,250" stroke="#111" stroke-width="3"/>
+    
+    <!-- Nike swoosh -->
+    <path d="M200,180 C250,140 300,160 350,210 C300,160 250,190 200,230" fill="#111"/>
+    
+    <!-- Laces -->
+    <line x1="270" y1="120" x2="270" y2="200" stroke="#111" stroke-width="3"/>
+    <line x1="300" y1="120" x2="300" y2="200" stroke="#111" stroke-width="3"/>
+    <line x1="330" y1="120" x2="330" y2="200" stroke="#111" stroke-width="3"/>
+    
+    <!-- Shoe sole -->
+    <path d="M150,250 C150,250 200,320 300,320 C400,320 450,250 450,250" stroke="#111" stroke-width="8" fill="none"/>
+  </g>
+  <text x="300" y="450" font-family="Arial" font-size="24" text-anchor="middle" fill="#111">Nike Blazer Mid '77</text>
+  <text x="300" y="480" font-family="Arial" font-size="18" text-anchor="middle" fill="#757575">Unisex Shoes</text>
+  <text x="300" y="510" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#111">$100</text>
+</svg>

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f5f5; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0e0e0; stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Color palette circles -->
+    <pattern id="color-palette" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
+      <circle cx="30" cy="30" r="20" fill="#f00"/>
+      <circle cx="90" cy="30" r="20" fill="#0f0"/>
+      <circle cx="30" cy="90" r="20" fill="#00f"/>
+      <circle cx="90" cy="90" r="20" fill="#ff0"/>
+    </pattern>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#bg-gradient)"/>
+  
+  <!-- Grid lines for design surface -->
+  <g stroke="#ccc" stroke-width="1" opacity="0.5">
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="400" x2="800" y2="400"/>
+    <line x1="0" y1="500" x2="800" y2="500"/>
+    
+    <line x1="100" y1="0" x2="100" y2="600"/>
+    <line x1="200" y1="0" x2="200" y2="600"/>
+    <line x1="300" y1="0" x2="300" y2="600"/>
+    <line x1="400" y1="0" x2="400" y2="600"/>
+    <line x1="500" y1="0" x2="500" y2="600"/>
+    <line x1="600" y1="0" x2="600" y2="600"/>
+    <line x1="700" y1="0" x2="700" y2="600"/>
+  </g>
+  
+  <!-- Customizable shoe -->
+  <g transform="translate(400, 300) scale(1.2)">
+    <!-- Shoe base -->
+    <path d="M-150,0 C-100,-50 0,-50 100,0 C150,30 200,30 200,0 C200,-30 150,-30 100,-60 C0,-100 -100,-80 -150,-30 C-180,0 -180,30 -150,0 Z" fill="#fff" stroke="#111" stroke-width="3"/>
+    
+    <!-- Customizable panels with different colors -->
+    <path d="M-100,-30 C-50,-50 0,-50 50,-30 C0,-60 -50,-60 -100,-30 Z" fill="#f00" opacity="0.7"/>
+    <path d="M50,-30 C100,-50 150,-30 150,0 C100,-30 50,-30 50,-30 Z" fill="#00f" opacity="0.7"/>
+    <path d="M-150,0 C-120,-10 -80,-10 -50,0 C-80,10 -120,10 -150,0 Z" fill="#0f0" opacity="0.7"/>
+    
+    <!-- Nike swoosh -->
+    <path d="M-50,-20 C0,-70 50,-50 100,0 C50,-50 0,-30 -50,20" fill="#111"/>
+  </g>
+  
+  <!-- Color palette section -->
+  <rect x="600" y="50" width="150" height="150" fill="url(#color-palette)" stroke="#111" stroke-width="2"/>
+  
+  <!-- Material swatches -->
+  <g transform="translate(650, 250)">
+    <rect x="0" y="0" width="50" height="30" fill="#fff" stroke="#111" stroke-width="1"/>
+    <rect x="0" y="40" width="50" height="30" fill="#ddd" stroke="#111" stroke-width="1"/>
+    <rect x="0" y="80" width="50" height="30" fill="#aaa" stroke="#111" stroke-width="1"/>
+    <text x="60" y="20" font-family="Arial" font-size="14" fill="#111">Leather</text>
+    <text x="60" y="60" font-family="Arial" font-size="14" fill="#111">Mesh</text>
+    <text x="60" y="100" font-family="Arial" font-size="14" fill="#111">Canvas</text>
+  </g>
+  
+  <!-- Design tools -->
+  <g transform="translate(650, 400)">
+    <rect x="0" y="0" width="30" height="30" fill="#fff" stroke="#111" stroke-width="2" rx="5" ry="5"/>
+    <line x1="5" y1="15" x2="25" y2="15" stroke="#111" stroke-width="2"/>
+    
+    <rect x="0" y="40" width="30" height="30" fill="#fff" stroke="#111" stroke-width="2" rx="5" ry="5"/>
+    <circle cx="15" cy="55" r="10" fill="none" stroke="#111" stroke-width="2"/>
+    
+    <rect x="0" y="80" width="30" height="30" fill="#fff" stroke="#111" stroke-width="2" rx="5" ry="5"/>
+    <path d="M5,85 L25,105 M5,105 L25,85" stroke="#111" stroke-width="2"/>
+    
+    <text x="40" y="20" font-family="Arial" font-size="14" fill="#111">Brush</text>
+    <text x="40" y="60" font-family="Arial" font-size="14" fill="#111">Shape</text>
+    <text x="40" y="100" font-family="Arial" font-size="14" fill="#111">Eraser</text>
+  </g>
+  
+  <!-- Nike By You logo -->
+  <g transform="translate(100, 100)">
+    <text x="0" y="0" font-family="Arial" font-size="24" font-weight="bold" fill="#111">NIKE BY YOU</text>
+    <text x="0" y="30" font-family="Arial" font-size="16" fill="#757575">CUSTOM DESIGN STUDIO</text>
+  </g>
+</svg>

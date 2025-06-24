@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#333; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="800" fill="url(#bg-gradient)"/>
+  
+  <!-- Dynamic lines/curves for visual interest -->
+  <path d="M0,400 C300,300 900,500 1200,400" stroke="#fff" stroke-width="1" fill="none" opacity="0.2"/>
+  <path d="M0,500 C300,600 900,400 1200,500" stroke="#fff" stroke-width="1" fill="none" opacity="0.2"/>
+  <path d="M0,300 C400,500 800,100 1200,300" stroke="#fff" stroke-width="1" fill="none" opacity="0.2"/>
+  <path d="M0,600 C400,400 800,800 1200,600" stroke="#fff" stroke-width="1" fill="none" opacity="0.2"/>
+  
+  <!-- Abstract shoe silhouette -->
+  <g transform="translate(600, 400) scale(1.5)" opacity="0.8">
+    <!-- Shoe outline -->
+    <path d="M-150,0 C-100,-50 0,-50 100,0 C150,30 200,30 200,0 C200,-30 150,-30 100,-60 C0,-100 -100,-80 -150,-30 C-180,0 -180,30 -150,0 Z" fill="none" stroke="#fff" stroke-width="3"/>
+    
+    <!-- Nike swoosh -->
+    <path d="M-50,-20 C0,-70 50,-50 100,0 C50,-50 0,-30 -50,20" fill="#fa5400"/>
+  </g>
+  
+  <!-- Particles/dots for dynamic feel -->
+  <g fill="#fff" opacity="0.5">
+    <circle cx="200" cy="200" r="3"/>
+    <circle cx="300" cy="300" r="2"/>
+    <circle cx="400" cy="150" r="4"/>
+    <circle cx="500" cy="250" r="2"/>
+    <circle cx="600" cy="100" r="3"/>
+    <circle cx="700" cy="200" r="2"/>
+    <circle cx="800" cy="300" r="4"/>
+    <circle cx="900" cy="150" r="2"/>
+    <circle cx="1000" cy="250" r="3"/>
+    <circle cx="200" cy="600" r="2"/>
+    <circle cx="300" cy="500" r="3"/>
+    <circle cx="400" cy="650" r="2"/>
+    <circle cx="500" cy="550" r="4"/>
+    <circle cx="600" cy="700" r="2"/>
+    <circle cx="700" cy="600" r="3"/>
+    <circle cx="800" cy="500" r="2"/>
+    <circle cx="900" cy="650" r="4"/>
+    <circle cx="1000" cy="550" r="2"/>
+  </g>
+  
+  <!-- Large Nike logo watermark -->
+  <path d="M800,600 C900,500 1000,550 1100,650 C1000,550 900,600 800,700" fill="#fff" opacity="0.1" transform="scale(2) translate(-300, -200)"/>
+</svg>

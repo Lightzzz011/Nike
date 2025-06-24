@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <!-- Video placeholder background -->
+  <rect width="1280" height="720" fill="#111"/>
+  
+  <!-- Video play button -->
+  <circle cx="640" cy="360" r="80" fill="#fff" opacity="0.2"/>
+  <polygon points="620,320 620,400 680,360" fill="#fff"/>
+  
+  <!-- Text indicating this is a placeholder -->
+  <text x="640" y="500" font-family="Arial" font-size="24" text-anchor="middle" fill="#fff">Video Placeholder</text>
+  <text x="640" y="540" font-family="Arial" font-size="18" text-anchor="middle" fill="#ccc">Innovation That Moves You Forward</text>
+  
+  <!-- Nike swoosh watermark -->
+  <path d="M740,300 C790,250 840,270 890,320 C840,270 790,300 740,350" fill="#fff" opacity="0.1" transform="scale(1.5) translate(-200, -100)"/>
+</svg>

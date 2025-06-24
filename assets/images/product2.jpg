@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <rect width="600" height="600" fill="#f5f5f5"/>
+  <g transform="translate(100, 100) scale(0.8)">
+    <!-- Shoe outline -->
+    <path d="M100,250 C100,250 150,150 250,150 C350,150 400,200 450,200 C500,200 500,250 450,300 C400,350 300,350 200,300 C100,250 100,250 100,250 Z" fill="#fff" stroke="#111" stroke-width="8"/>
+    
+    <!-- Shoe details -->
+    <path d="M150,250 C150,250 200,200 250,200 C300,200 350,220 400,220" stroke="#f0f" stroke-width="5" fill="none"/>
+    <path d="M200,270 C200,270 250,240 300,240 C350,240 380,250 400,250" stroke="#0ff" stroke-width="5" fill="none"/>
+    
+    <!-- Nike swoosh -->
+    <path d="M200,220 C250,180 300,200 350,250 C300,200 250,230 200,270" fill="#111"/>
+    
+    <!-- Shoe sole -->
+    <path d="M100,250 C100,250 150,280 250,300 C350,320 450,300 450,300" stroke="#111" stroke-width="8" fill="none"/>
+  </g>
+  <text x="300" y="450" font-family="Arial" font-size="24" text-anchor="middle" fill="#111">Nike React Infinity Run</text>
+  <text x="300" y="480" font-family="Arial" font-size="18" text-anchor="middle" fill="#757575">Women's Running Shoes</text>
+  <text x="300" y="510" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#111">$160</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#111; stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#333; stop-opacity:0.9" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#bg-gradient)"/>
+  
+  <!-- Running track lines -->
+  <path d="M0,400 C200,380 600,420 800,400" stroke="#fff" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M0,420 C200,400 600,440 800,420" stroke="#fff" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M0,440 C200,420 600,460 800,440" stroke="#fff" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M0,460 C200,440 600,480 800,460" stroke="#fff" stroke-width="2" fill="none" opacity="0.5"/>
+  
+  <!-- Runner silhouette -->
+  <g transform="translate(400, 300) scale(0.8)" fill="#fff">
+    <!-- Head -->
+    <circle cx="0" cy="-100" r="30"/>
+    
+    <!-- Body -->
+    <path d="M0,-70 L0,50" stroke="#fff" stroke-width="20" stroke-linecap="round"/>
+    
+    <!-- Arms -->
+    <path d="M0,-20 L-70,30" stroke="#fff" stroke-width="15" stroke-linecap="round"/>
+    <path d="M0,-20 L70,-30" stroke="#fff" stroke-width="15" stroke-linecap="round"/>
+    
+    <!-- Legs -->
+    <path d="M0,50 L-40,150" stroke="#fff" stroke-width="15" stroke-linecap="round"/>
+    <path d="M0,50 L60,130" stroke="#fff" stroke-width="15" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Motion lines -->
+  <path d="M250,250 L200,250" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <path d="M260,280 L190,280" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <path d="M270,310 L180,310" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  
+  <!-- Nike swoosh -->
+  <path d="M600,150 C650,100 700,120 750,170 C700,120 650,150 600,200" fill="#fff" opacity="0.9"/>
+  
+  <!-- Text -->
+  <text x="400" y="500" font-family="Arial" font-size="36" font-weight="bold" text-anchor="middle" fill="#fff">RUNNING ESSENTIALS</text>
+  <text x="400" y="540" font-family="Arial" font-size="24" text-anchor="middle" fill="#fff" opacity="0.8">ENGINEERED FOR PEAK PERFORMANCE</text>
+</svg>
