@@ -1,7 +1,7 @@
 # Nike Clone - Better Than Original
 
 <p align="center">
-  <img src="https://tse2.mm.bing.net/th?id=OIP.4kmmdW6zr6WwWLPlXmrALAHaEM&pid=Api&P=0&h=180" width="32" height="32" alt="Icon Image" />
+  <img src="https://tse2.mm.bing.net/th?id=OIP.4kmmdW6zr6WwWLPlXmrALAHaEM&pid=Api&P=0&h=180" width="500" height="300" alt="Icon Image" />
 
 
 </p>
