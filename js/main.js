@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     
-    // Product Color Selectionn
+    // Product Color Selection
     const colorOptions = document.querySelectorAll('.color-option');
     
     colorOptions.forEach(option => {
