@@ -59,7 +59,7 @@ img {
     outline: none;
     font-size: 16px;
 }
-
+ 
 .btn-primary {
     background-color: var(--secondary-color);
     color: var(--light-text);
